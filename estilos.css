@@ -1,0 +1,139 @@
+#titulo {
+    background-color: #000000;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 1200;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+body {
+    background: linear-gradient(#000011, #000022);
+    color: #fff;
+}
+
+.espacio-titulo {
+    padding: 4.5% 15%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding-bottom: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light', sans-serif;
+    font-weight: 100;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    margin-left: 20%;
+    width: 90%;
+    transform: rotate(25deg);
+}
+
+#caracteristicas {
+    padding: 7% 15%;
+}
+
+.caja-caracteristica {
+    text-align: center;
+    padding: 5%;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p {
+    color: #ffffff;
+}
+
+.icon {
+    color: #000000;
+    margin-bottom: 3rem;
+}
+
+.icon:hover {
+    color: #141431;
+}
+
+#Caracteristicas {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #371691;
+    color: #ffffff;
+}
+
+.img-testimonio {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+.logo-prensa {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.CasasGaming {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    padding: 0 25px;
+    line-height: 1.5;
+
+}
+
+.logo {
+    width: 40%;
+    margin: 50px;
+}
+
+#productos {
+
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #3300c0;
+    color:#ffffff
+}
+
+#footer{
+
+    text-align: center;
+    text-size-adjust: 200px;
+    color: #000000;
+}

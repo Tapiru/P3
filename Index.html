@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SpaceTapi</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Ubuntu&display=swap" rel="stylesheet">
+
+   
+    <link rel="stylesheet" href="estilos.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+ 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">SpaceTapi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Misiones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Tecnología</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   
+    <section class="jumbotron text-center bg-primary text-white py-5">
+        <div class="container">
+            <h1 class="display-4">Explora los misterios del universo</h1>
+            <p class="lead">Descubre planetas, estrellas, galaxias y tecnologías espaciales con SpaceTapi.</p>
+            <a href="#" class="btn btn-light btn-lg mt-3">Comenzar viaje</a>
+        </div>
+    </section>
+
+
+    <section class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2>Viaja a través de galaxias</h2>
+                <p>Conoce cómo los científicos exploran los rincones más lejanos del espacio y descubren nuevos cuerpos celestes.</p>
+                <a href="#" class="btn btn-outline-primary">Leer más</a>
+            </div>
+            <div class="col-md-6">
+                <img src="imagenes/galaxy-hero.jpg" alt="Galaxia ilustrativa" class="img-fluid rounded">
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Tecnología espacial destacada</h2>
+        <div id="carouselEspacial" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagenes/mars-rover.png" class="d-block w-100 img-fluid" alt="Rover en Marte">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Rover en Marte</h5>
+                        <p>Explorando la superficie marciana en busca de vida.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/satelite-view.png" class="d-block w-100 img-fluid" alt="Satélite en órbita">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Satélite Orbital</h5>
+                        <p>Transmitiendo datos desde el espacio a la Tierra.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imagenes/astronaut.png" class="d-block w-100 img-fluid" alt="Astronauta">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Vida fuera de la Tierra</h5>
+                        <p>Los desafíos de la vida en la estación espacial internacional.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselEspacial" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselEspacial" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <section class="container my-5">
+        <div class="row text-center">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="imagenes/astronaut.png" class="card-img-top img-fluid" alt="Astronauta">
+                    <div class="card-body">
+                        <h5 class="card-title">Entrenamiento Astronauta</h5>
+                        <p class="card-text">Conoce cómo se preparan los humanos para viajar fuera del planeta.</p>
+                        <a href="#" class="btn btn-primary">Más info</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="imagenes/satelite-view.png" class="card-img-top img-fluid" alt="Satélite">
+                    <div class="card-body">
+                        <h5 class="card-title">Satélites Artificiales</h5>
+                        <p class="card-text">Fundamentales para la comunicación, clima y navegación global.</p>
+                        <a href="#" class="btn btn-primary">Más info</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="imagenes/mars-rover.png" class="card-img-top img-fluid" alt="Rover en Marte">
+                    <div class="card-body">
+                        <h5 class="card-title">Exploracin Marciana</h5>
+                        <p class="card-text">Robots avanzados en búsqueda de evidencias de vida en Marte.</p>
+                        <a href="#" class="btn btn-primary">Más info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-4 bg-dark text-light">
+        <p>&copy; 2025 SpaceTapi. Todos los derechos reservados jijiji.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
